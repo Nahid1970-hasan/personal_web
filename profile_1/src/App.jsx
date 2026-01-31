@@ -8,8 +8,10 @@ import Service from './pages/Service';
 import Contact from './pages/Contact';
 
 function App() {
+  // Automatically uses the base URL from Vite config for GitHub Pages
+  // If base is set in vite.config.js, it will be used automatically
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<Layout><Home /></Layout>} />
         <Route path="/about" element={<Layout><About /></Layout>} />
