@@ -334,8 +334,7 @@ function Home() {
                 </div>
             </section>
 
-            {/* Certifications Section */}
-            <section className="portfolio-section" id="certifications">
+            {/* <section className="portfolio-section" id="certifications">
                 <div className="container">
                     <div className="section-header">
                         <span className="section-label">CERTIFICATIONS</span>
@@ -372,7 +371,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* Services Detail Section */}
             <section className="services-detail-section" id="service">

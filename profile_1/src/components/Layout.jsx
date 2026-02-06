@@ -10,7 +10,9 @@ import {
   FaArrowUp,
   FaEnvelope,
   FaPhone,
-  FaMapMarkerAlt
+  FaMapMarkerAlt,
+  FaGift,
+  FaGit
 } from 'react-icons/fa';
 import { 
   HiMail
@@ -84,7 +86,7 @@ function Layout({ children }) {
               className={location.pathname === '/certifications' ? 'active' : ''}
               onClick={handleBlogClick}
             >
-              Blog
+              Certifications
             </Link>
             <Link 
               to="/contact" 
@@ -97,8 +99,10 @@ function Layout({ children }) {
           <div className="header-actions">
             <div className="social-icons">
               <a href="#"><FaTwitter /></a>
-              <a href="#"><FaInstagram /></a>
-              <a href="#"><FaDribbble /></a>
+              {/* <a href="#"><FaInstagram /></a> */}
+              <a href="https://github.com/Nahid1970-hasan"><FaGit /></a>
+              <a href="#"><FaFacebook/></a>
+              <a href="https://www.linkedin.com/in/nahidh70/"><FaLinkedin/></a>
             </div>
             <button className="pink-button"> <a href="https://drive.google.com/file/d/1iemZnDwbZ1WxKpWeLQNnl3oOWH3OguQH/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Download CV</a></button>
           </div>
@@ -131,7 +135,7 @@ function Layout({ children }) {
                 <Link to="/about">About Us</Link>
                 <a href="#service">Service</a>
                 <a href="#portfolio">Projects</a>
-                <a href="#blog">Blog Post</a>
+                {/* <a href="#blog">Blog Post</a> */}
               </div>
               <div className="footer-column">
                 <h4>Contact</h4>

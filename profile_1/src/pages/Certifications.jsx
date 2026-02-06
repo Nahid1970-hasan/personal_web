@@ -1,5 +1,5 @@
 import '../App.css';
-import img1 from '../assets/img_1.png';
+import cse from '../assets/cse.jpg';
 
 function Certifications() {
   return (
@@ -16,42 +16,42 @@ function Certifications() {
           </div>
           <div className="portfolio-grid">
             <div className="portfolio-item">
-              <img src={img1} alt="Digital Transformation Advisors" className="portfolio-image-placeholder" />
+              <img src={cse} alt="Digital Transformation Advisors" className="portfolio-image-placeholder" />
               <div className="portfolio-info">
                 <h4>Digital Transformation Advisors</h4>
                 <p>Web Design</p>
               </div>
             </div>
             <div className="portfolio-item">
-              <img src={img1} alt="Personal Portfolio" className="portfolio-image-placeholder" />
+              <img src={cse} alt="Personal Portfolio" className="portfolio-image-placeholder" />
               <div className="portfolio-info">
                 <h4>Personal Portfolio</h4>
                 <p>UI/UX Design</p>
               </div>
             </div>
             <div className="portfolio-item">
-              <img src={img1} alt="Website for a Model" className="portfolio-image-placeholder" />
+              <img src={cse} alt="Website for a Model" className="portfolio-image-placeholder" />
               <div className="portfolio-info">
                 <h4>Website for a Model</h4>
                 <p>Branding</p>
               </div>
             </div>
             <div className="portfolio-item">
-              <img src={img1} alt="E-commerce Platform" className="portfolio-image-placeholder" />
+              <img src={cse} alt="E-commerce Platform" className="portfolio-image-placeholder" />
               <div className="portfolio-info">
                 <h4>E-commerce Platform</h4>
                 <p>Web Development</p>
               </div>
             </div>
             <div className="portfolio-item">
-              <img src={img1} alt="React.js Certification" className="portfolio-image-placeholder" />
+              <img src={cse} alt="React.js Certification" className="portfolio-image-placeholder" />
               <div className="portfolio-info">
                 <h4>React.js Certification</h4>
                 <p>Frontend Development</p>
               </div>
             </div>
             <div className="portfolio-item">
-              <img src={img1} alt="JavaScript Mastery" className="portfolio-image-placeholder" />
+              <img src={cse} alt="JavaScript Mastery" className="portfolio-image-placeholder" />
               <div className="portfolio-info">
                 <h4>JavaScript Mastery</h4>
                 <p>Programming</p>
